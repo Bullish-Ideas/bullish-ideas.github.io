@@ -1,5 +1,5 @@
 .hero-image {
-  aspect-ratio: 1;
+  aspect-ratio: 26 / 11;
   object-fit: contain;
   background-color: var(--color-surface);
 }
