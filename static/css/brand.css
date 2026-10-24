@@ -1,3 +1,9 @@
+.hero-image {
+  aspect-ratio: 1;
+  object-fit: contain;
+  background-color: var(--color-surface);
+}
+
 .site-header .brand {
   gap: 0;
 }

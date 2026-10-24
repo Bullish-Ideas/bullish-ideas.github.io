@@ -7,8 +7,8 @@ enabled = true
 eyebrow = "Early concepts and experiments"
 title = "A place for ideas in progress."
 text = "Bullish Ideas is a home for early concepts, experiments, and writing about design and technology. Each piece starts with a clear premise and asks what might be worth testing."
-image = "images/ideas-in-progress.svg"
-image_alt = "Paper notes and an ochre line forming a rising path."
+image = "images/mark.svg"
+image_alt = "The Bullish Ideas gold bull-and-bulb mark on a charcoal circle."
 [hero.button]
 icon = "icons/arrow.svg"
 label = "Explore ideas"
