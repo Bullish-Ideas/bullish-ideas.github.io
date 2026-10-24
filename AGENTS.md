@@ -1,6 +1,6 @@
 # AGENTS.md
 
-This is the blank bullish-ideas.github.io site. It holds no site content yet.
+This is the Bullish Ideas site. It uses Siteman and Roxo Flex. Add editorial pieces under `content/portfolio/`.
 
 ## Verification
 

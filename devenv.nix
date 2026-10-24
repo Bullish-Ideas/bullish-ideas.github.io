@@ -7,7 +7,7 @@
   # Every task declares `input.testee`, so Testee can reuse a verdict when a commit
   # changes none of its inputs. Run `testee doctor` after any edit to this table.
   # devman's `base` group calls `base:check` and `base:test`.
-  # A blank site has nothing to build. The checks below are the whole gate.
+  # siteman-check builds the site and checks content, links, and deployment config.
   tasks = {
     "check:lint" = {
       exec = ''
@@ -23,9 +23,12 @@
       exec = ''
         set -eu
         cd "$DEVENV_ROOT"
-        # Every tracked file is text (grep -I rejects a binary file).
+        # Source files are text. Raster image assets are binary by design.
         bad=0
         for f in $(git ls-files); do
+          case "$f" in
+            *.png | *.jpg | *.jpeg | *.webp | *.ico) continue ;;
+          esac
           if [ -f "$f" ] && [ -s "$f" ] && ! grep -Iq . "$f"; then
             echo "not text: $f"
             bad=1
@@ -54,10 +57,22 @@
 
     "test:full" = {
       exec = ''
-        echo "n/a: blank site: nothing to test yet"
-        exit 0
+        set -eu
+        cd "$DEVENV_ROOT"
+        siteman-check
       '';
-      input.testee.ignores = [ "**" ];
+      input.testee = {
+        timeout_s = 180;
+        reads = [
+          "content/**"
+          ".siteman/**"
+          "static/**"
+          "assets/**"
+          ".github/workflows/**"
+          "go.mod"
+          "go.sum"
+        ];
+      };
     };
 
     "base:check" = {
