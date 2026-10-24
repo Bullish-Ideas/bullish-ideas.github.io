@@ -6,10 +6,10 @@
   <rect x="198" y="244" width="54" height="54" fill="#F6F2E8" stroke="#D7CEBE" stroke-width="3"/>
   <rect x="270" y="244" width="54" height="54" fill="#EFE9DD" stroke="#D7CEBE" stroke-width="3"/>
   <rect x="342" y="244" width="54" height="54" fill="#242724"/>
-  <rect x="414" y="244" width="54" height="54" fill="#805500"/>
+  <rect x="414" y="244" width="54" height="54" fill="#93620F"/>
   <path d="M198 342h262M198 376h184" fill="none" stroke="#555B54" stroke-linecap="round" stroke-width="8"/>
-  <rect x="198" y="420" width="150" height="54" rx="4" fill="#805500"/>
+  <rect x="198" y="420" width="150" height="54" rx="4" fill="#93620F"/>
   <path d="M222 447h102" stroke="#FFFFFF" stroke-linecap="round" stroke-width="6"/>
-  <rect x="372" y="420" width="150" height="54" rx="4" fill="#EFE9DD" stroke="#805500" stroke-width="3"/>
-  <path d="M396 447h102" stroke="#805500" stroke-linecap="round" stroke-width="6"/>
+  <rect x="372" y="420" width="150" height="54" rx="4" fill="#EFE9DD" stroke="#93620F" stroke-width="3"/>
+  <path d="M396 447h102" stroke="#93620F" stroke-linecap="round" stroke-width="6"/>
 </svg>

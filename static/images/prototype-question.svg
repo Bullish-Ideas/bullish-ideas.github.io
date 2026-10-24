@@ -5,8 +5,8 @@
   <rect x="182" y="250" width="126" height="110" fill="#EFE9DD" stroke="#D7CEBE" stroke-width="4"/>
   <rect x="338" y="250" width="126" height="110" fill="#F6F2E8" stroke="#D7CEBE" stroke-width="4"/>
   <rect x="494" y="250" width="126" height="110" fill="#EFE9DD" stroke="#D7CEBE" stroke-width="4"/>
-  <path d="M308 305h30m126 0h30" fill="none" stroke="#805500" stroke-linecap="square" stroke-width="8"/>
-  <circle cx="245" cy="305" r="21" fill="#805500"/>
+  <path d="M308 305h30m126 0h30" fill="none" stroke="#93620F" stroke-linecap="square" stroke-width="8"/>
+  <circle cx="245" cy="305" r="21" fill="#93620F"/>
   <path d="M235 305h20m-10-10v20" stroke="#FFFFFF" stroke-linecap="round" stroke-width="4"/>
   <path d="M182 414h268M182 450h188" fill="none" stroke="#D7CEBE" stroke-linecap="round" stroke-width="8"/>
 </svg>

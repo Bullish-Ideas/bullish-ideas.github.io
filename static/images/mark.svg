@@ -1,5 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <path d="M12 54V10h40" fill="none" stroke="#242724" stroke-linecap="square" stroke-width="6"/>
-  <path d="M12 42h12V30h12V18h16" fill="none" stroke="#805500" stroke-linecap="square" stroke-linejoin="miter" stroke-width="6"/>
-  <circle cx="52" cy="18" r="4" fill="#805500"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-labelledby="title">
+  <title id="title">Bullish Ideas bull and bulb mark</title>
+  <circle cx="100" cy="100" r="96" fill="#242724" stroke="#E5B866" stroke-width="4"/>
+  <g fill="none" stroke="#E5B866" stroke-linecap="round" stroke-linejoin="round" stroke-width="5">
+    <path d="M100 105C89 94 78 91 66 96C53 101 42 100 34 93C26 86 25 75 30 66C35 57 42 51 51 46C48 58 53 66 61 69C70 73 80 69 85 61C89 54 93 50 100 50C107 50 111 54 115 61C120 69 130 73 139 69C147 66 152 58 149 46C158 51 165 57 170 66C175 75 174 86 166 93C158 100 147 101 134 96C122 91 111 94 100 105Z"/>
+    <path d="M33 86C40 96 50 102 61 108C70 113 75 124 80 141"/>
+    <path d="M167 86C160 96 150 102 139 108C130 113 125 124 120 141"/>
+    <path d="M71 89C76 79 87 74 100 74C113 74 124 79 129 89C126 103 116 114 100 127C84 114 74 103 71 89Z"/>
+    <path d="M84 148H116M88 156H112M92 164H108"/>
+  </g>
 </svg>
