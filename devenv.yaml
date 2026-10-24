@@ -3,7 +3,7 @@ inputs:
   nixpkgs:
     url: github:cachix/devenv-nixpkgs/rolling
   siteman:
-    url: github:Bullish-Design/siteman
+    url: path:./tools/siteman
     flake: false
 imports:
   - siteman/module

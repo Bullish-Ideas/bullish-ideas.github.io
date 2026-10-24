@@ -33,4 +33,4 @@ Add an idea as a Markdown page under `content/portfolio/`. Set its title, descri
 
 ## GitHub Pages
 
-The workflow in `.github/workflows/` checks and builds the site before deployment. Set the Pages source to GitHub Actions. Add an Actions secret named `SITEMAN_READ_TOKEN` with read-only Contents access to `Bullish-Design/siteman`.
+The workflow in `.github/workflows/` checks and builds the site before deployment. Set the Pages source to GitHub Actions. `tools/siteman/` contains the pinned Siteman module snapshot so Actions can build without private-repository credentials. Review its source commit before updating it.
